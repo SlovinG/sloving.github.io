@@ -383,13 +383,21 @@ export default defineConfig({
                 {text: '初识微服务', link: '/SpringCloud/初识微服务'},
             ],
             "/Note/": [
-                {text: 'Maven的基本使用', link: '/Note/Maven的基本使用'},
-                {text: 'Maven插件', link: '/Note/Maven插件'},
-                {text: 'Maven导入本地jar包', link: '/Note/Maven导入本地jar包'},
-                {text: 'Maven SNAPSHOT', link: '/Note/Maven SNAPSHOT'},
-                {text: 'Maven依赖', link: '/Note/Maven依赖'},
-                {text: 'Maven继承与聚合', link: '/Note/Maven继承与聚合'},
-                {text: 'Maven settings.xml 配置文件解读', link: '/Note/Maven settings.xml 配置文件解读'},
+                {
+                    text: 'Maven',
+                    collapsed: false,
+                    items: [
+                        {text: 'Maven 的基本使用', link: '/Note/Maven的基本使用'},
+                        {text: 'Maven 插件', link: '/Note/Maven插件'},
+                        {text: 'Maven 导入本地jar包', link: '/Note/Maven导入本地jar包'},
+                        {text: 'Maven SNAPSHOT', link: '/Note/Maven SNAPSHOT'},
+                        {text: 'Maven 依赖', link: '/Note/Maven依赖'},
+                        {text: 'Maven 依赖', link: '/Note/Maven依赖'},
+                        {text: 'Maven 继承与聚合', link: '/Note/Maven继承与聚合'},
+                        {text: 'Maven settings.xml 配置文件解读', link: '/Note/Maven settings.xml 配置文件解读'},
+                    ]
+                },
+                {text: 'Elasticsearch 入门', link: '/Note/Elasticsearch'},
                 {text: 'JUnit4的使用教程', link: '/Note/JUnit4的使用教程'},
                 {text: '一文详解回调地狱', link: '/Note/一文详解回调地狱'},
                 {text: '分布式全局唯一ID和雪花算法', link: '/Note/分布式全局唯一ID和雪花算法'},
