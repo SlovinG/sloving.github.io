@@ -37,7 +37,9 @@ export default defineConfig({
         // 默认文案修改
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '相关文章',
-        lastUpdatedText: '上次更新于',
+        lastUpdated:{
+            Text: '上次更新于'
+        },
         // 设置logo
         logo: '/img/favicon.svg',
         // editLink: {
@@ -68,6 +70,10 @@ export default defineConfig({
         ],
         // 侧边栏
         sidebar: {
+            "/Life/":[
+                {text: '四月纪事', link: '/Life/四月纪事'},
+                {text: '研究生的痛苦', link: '/Life/研究生的痛苦'},
+            ],
             "/LeetCode/": [
                 {
                     text: '数组',
