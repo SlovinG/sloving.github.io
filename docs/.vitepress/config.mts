@@ -52,14 +52,14 @@ export default defineConfig({
             {text: '力扣每日一题', link: '/LeetCode/'},
             {text: 'Java', link: '/Java/'},
             {text: 'SpringBoot', link: '/SpringBoot/'},
-            {text: '微服务', link: '/SpringCloud/初识微服务'},
             {text: 'SSM', link: '/SSM/'},
             {text: '笔记', link: '/Note/'},
             {text: '计算机网络', link: '/ComputerNetworks/'},
             {text: 'MySQL', link: '/MySQL/'},
             {text: 'JavaWeb', link: '/JavaWeb/'},
             {text: 'Linux', link: '/Linux/'},
-            {text: '九阳真经', link: '/ZhenJing/九阳真经'}
+            {text: '九阳真经', link: '/ZhenJing/九阳真经'},
+            {text: '生活随笔',link:'/Life/'}
         ],
         // 友链
         socialLinks: [
@@ -72,7 +72,9 @@ export default defineConfig({
         sidebar: {
             "/Life/":[
                 {text: '四月纪事', link: '/Life/四月纪事'},
-                {text: '研究生的痛苦', link: '/Life/研究生的痛苦'},
+                {text: '读研的另一种感受', link: '/Life/读研的另一种感受'},
+                {text: '寒假结束', link: '/Life/寒假结束'},
+                {text: '保护好眼睛', link: '/Life/保护好眼睛'},
             ],
             "/LeetCode/": [
                 {
@@ -384,10 +386,6 @@ export default defineConfig({
                     ]
                 }
             ],
-            "/SpringCloud/": [
-                {text: '电商架构演进之路', link: '/SpringCloud/电商架构演进之路'},
-                {text: '初识微服务', link: '/SpringCloud/初识微服务'},
-            ],
             "/Note/": [
                 {
                     text: 'Maven',
@@ -412,6 +410,8 @@ export default defineConfig({
                 {text: '浅谈XSS攻击', link: '/Note/浅谈XSS攻击'},
                 {text: '负载均衡集群中的Session解决方案', link: '/Note/负载均衡集群中的Session解决方案'},
                 {text: '项目开发和管理流程', link: '/Note/项目开发和管理流程'},
+                {text: '电商架构演进之路', link: '/Note/电商架构演进之路'},
+                {text: '初识微服务', link: '/Note/初识微服务'},
             ],
         },
     }
