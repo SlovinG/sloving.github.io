@@ -75,7 +75,8 @@ export default defineConfig({
                 {text: '读研的另一种感受', link: '/Life/读研的另一种感受'},
                 {text: '寒假结束', link: '/Life/寒假结束'},
                 {text: '保护好眼睛', link: '/Life/保护好眼睛'},
-            ],
+                {text: '武汉的聚会', link: '/Life/武汉的聚会'},
+                 ],
             "/LeetCode/": [
                 {
                     text: '数组',
