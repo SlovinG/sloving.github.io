@@ -74,6 +74,10 @@ const blogTheme = getThemeConfig({
     // 公告
     popover: {
         title: '公告',
+        duration: -1,
+        mobileMinify: false,
+        reopen: true,
+        twinkle: false,
         body: [
             {type: 'text', content: '👇 我的微信 👇----👇 我的 QQ 👇'},
             {
@@ -89,9 +93,8 @@ const blogTheme = getThemeConfig({
             {
                 type: 'text',
                 content: '欢迎大家私信交流'
-            },
+            }
         ],
-        duration: 0
     },
 
     // 热门文章
