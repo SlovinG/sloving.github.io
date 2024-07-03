@@ -95,7 +95,7 @@ categories:
 
 依赖注入：就是利用 set 方法来进行注入的。
 
-<font color='red'>**IOC 是一种编程思想，由主动的编程变成被动的接收**</font>
+**IOC 是一种编程思想，由主动的编程变成被动的接收**
 
 可以通过 **new ClassPathXmlApplicationContext()** 去浏览一下底层源码。
 

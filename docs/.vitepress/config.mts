@@ -430,12 +430,25 @@ export default defineConfig({
                         {text: 'Maven SNAPSHOT', link: '/Note/Maven SNAPSHOT'},
                         {text: 'Maven 依赖', link: '/Note/Maven依赖'},
                         {text: 'Maven 继承与聚合', link: '/Note/Maven继承与聚合'},
-                        {text: 'Maven settings.xml 配置文件解读', link: '/Note/Maven settings.xml 配置文件解读'},
+                        {text: 'Maven settings.xml 配置文件解读', link: '/Note/Maven settings.xml 配置文件解读'}
                     ]
                 },
-                {text: 'Elasticsearch 入门', link: '/Note/Elasticsearch'},
-                {text: 'Elasticsearch 分页查询', link: '/Note/Elasticsearch分页查询'},
-                {text: 'JUnit4的使用教程', link: '/Note/JUnit4的使用教程'},
+                {
+                    text: 'Elasticsearch',
+                    collapsed: false,
+                    items: [
+                        {text: 'Elasticsearch 入门', link: '/Note/Elasticsearch入门'},
+                        {text: 'Elasticsearch 分页查询', link: '/Note/Elasticsearch分页查询'}
+                    ]
+                },
+                {
+                    text: 'RabbitMQ',
+                    collapsed: false,
+                    items: [
+                        {text: 'RabbitMQ 入门', link: '/Note/RabbitMQ入门'},
+                    ]
+                },
+                 {text: 'JUnit4的使用教程', link: '/Note/JUnit4的使用教程'},
                 {text: '一文详解回调地狱', link: '/Note/一文详解回调地狱'},
                 {text: '分布式全局唯一ID和雪花算法', link: '/Note/分布式全局唯一ID和雪花算法'},
                 {text: '初识JWT', link: '/Note/初识JWT'},
