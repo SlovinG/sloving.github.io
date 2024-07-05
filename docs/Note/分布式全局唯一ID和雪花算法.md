@@ -1,7 +1,6 @@
 ---
 title: 分布式全局唯一ID和雪花算法
 date: 2023-11-30
-sidebar: auto
 tags: 
  - 雪花算法
 categories:
