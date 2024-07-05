@@ -446,6 +446,7 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                         {text: 'RabbitMQ 入门', link: '/Note/RabbitMQ入门'},
+                        {text: 'RabbitMQ 进阶', link: '/Note/RabbitMQ进阶'}
                     ]
                 },
                  {text: 'JUnit4的使用教程', link: '/Note/JUnit4的使用教程'},

@@ -7,6 +7,9 @@ recommend: false
 ---
 
 # 笔记
+
+## Maven
+
 - [Maven的基本使用](./Maven的基本使用.md)
 - [Maven插件](./Maven插件.md)
 - [Maven导入本地jar包](./Maven导入本地jar包.md)
@@ -14,6 +17,21 @@ recommend: false
 - [Maven依赖](./Maven依赖.md)
 - [Maven继承与聚合](./Maven继承与聚合.md)
 - [Maven settings.xml 配置文件解读](./Maven%20settings.xml%20配置文件解读.md)
+
+## Elasticsearch
+
+- [Elasticsearch 入门](./Elasticsearch入门.md)
+- [Elasticsearch 分页查询](./Elasticsearch分页查询.md)
+
+## RabbitMQ
+
+- [RabbitMQ 入门](./RabbitMQ入门.md)
+- [RabbitMQ 进阶](./RabbitMQ进阶.md)
+
+------
+
+
+
 - [JUnit4的使用教程](./JUnit4的使用教程.md)
 - [一文详解回调地狱](./一文详解回调地狱.md)
 - [分布式全局唯一ID和雪花算法](./分布式全局唯一ID和雪花算法.md)
