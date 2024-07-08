@@ -37,7 +37,7 @@ export default defineConfig({
         // 默认文案修改
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '相关文章',
-        lastUpdated:{
+        lastUpdated: {
             Text: '上次更新于'
         },
         // 设置logo
@@ -59,7 +59,7 @@ export default defineConfig({
             {text: 'JavaWeb', link: '/JavaWeb/'},
             {text: 'Linux', link: '/Linux/'},
             {text: '九阳真经', link: '/ZhenJing/九阳真经'},
-            {text: '生活随笔',link:'/Life/'}
+            {text: '生活随笔', link: '/Life/'}
         ],
         // 友链
         socialLinks: [
@@ -70,7 +70,7 @@ export default defineConfig({
         ],
         // 侧边栏
         sidebar: {
-            "/Life/":[
+            "/Life/": [
                 {text: '四月纪事', link: '/Life/四月纪事'},
                 {text: '读研的另一种感受', link: '/Life/读研的另一种感受'},
                 {text: '寒假结束', link: '/Life/寒假结束'},
@@ -108,7 +108,7 @@ export default defineConfig({
                 {text: '备胎生存法则', link: '/Life/备胎生存法则'},
                 {text: '大学生心理健康', link: '/Life/大学生心理健康'},
                 {text: '不规范翘课', link: '/Life/不规范翘课'},
-                 ],
+            ],
             "/LeetCode/": [
                 {
                     text: '数组',
@@ -449,13 +449,20 @@ export default defineConfig({
                         {text: 'RabbitMQ 进阶', link: '/Note/RabbitMQ进阶'}
                     ]
                 },
-                 {text: 'JUnit4的使用教程', link: '/Note/JUnit4的使用教程'},
+                {
+                    text: 'Docker',
+                    collapsed: false,
+                    items: [
+                        {text: 'Docker 入门', link: '/Note/Docker入门'}
+                    ]
+                },
+                {text: '分布式中的 CAP 理论', link: '/Note/分布式中的CAP理论'},
+                {text: 'JUnit4 的使用教程', link: '/Note/JUnit4的使用教程'},
                 {text: '一文详解回调地狱', link: '/Note/一文详解回调地狱'},
-                {text: '分布式全局唯一ID和雪花算法', link: '/Note/分布式全局唯一ID和雪花算法'},
-                {text: '初识JWT', link: '/Note/初识JWT'},
-                {text: '浅谈CSRF攻击', link: '/Note/浅谈CSRF攻击'},
-                {text: '浅谈XSS攻击', link: '/Note/浅谈XSS攻击'},
-                {text: '负载均衡集群中的Session解决方案', link: '/Note/负载均衡集群中的Session解决方案'},
+                {text: '初识 JWT', link: '/Note/初识JWT'},
+                {text: '浅谈 CSRF 攻击', link: '/Note/浅谈CSRF攻击'},
+                {text: '浅谈 XSS 攻击', link: '/Note/浅谈XSS攻击'},
+                {text: '负载均衡集群中的 Session 解决方案', link: '/Note/负载均衡集群中的Session解决方案'},
                 {text: '项目开发和管理流程', link: '/Note/项目开发和管理流程'},
                 {text: '电商架构演进之路', link: '/Note/电商架构演进之路'},
                 {text: '初识微服务', link: '/Note/初识微服务'},
