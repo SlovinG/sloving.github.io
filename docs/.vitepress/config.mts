@@ -29,7 +29,7 @@ export default defineConfig({
         ['link', {rel: 'icon', href: 'img/favicon.svg'}],
         [
             'link',
-            {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-web/1.330.0/style.css'}
+            {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css'}
         ]
     ],
     themeConfig: {
