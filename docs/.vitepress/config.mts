@@ -460,6 +460,13 @@ export default defineConfig({
                         {text: 'Docker 入门', link: '/Note/Docker入门'}
                     ]
                 },
+                {
+                    text: 'Kubernetes',
+                    collapsed: false,
+                    items: [
+                        {text: 'Kubernetes 基础概念', link: '/Note/Kubernetes基础概念'}
+                    ]
+                },
                 {text: '分布式中的 CAP 理论', link: '/Note/分布式中的CAP理论'},
                 {text: 'JUnit4 的使用教程', link: '/Note/JUnit4的使用教程'},
                 {text: '一文详解回调地狱', link: '/Note/一文详解回调地狱'},
