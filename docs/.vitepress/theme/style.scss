@@ -5,10 +5,17 @@
     background-image: url(./assets/40.jpg);
     background-size: cover;
   }
+
   // 定义遮罩样式
   background: radial-gradient(
-    ellipse,
-    rgba(var(--bg-gradient-home), 1) 0%,
-    rgba(var(--bg-gradient-home), 0) 150%
+                  ellipse,
+                  rgba(var(--bg-gradient-home), 1) 0%,
+                  rgba(var(--bg-gradient-home), 0) 150%
   );
+
+}
+
+body {
+  font-family: "LXGW WenKai Mono" !important;
+  font-weight: normal !important;
 }

@@ -26,7 +26,11 @@ export default defineConfig({
     head: [
         // 配置网站的图标（显示在浏览器的 tab 上）
         // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-        ['link', {rel: 'icon', href: 'img/favicon.svg'}]
+        ['link', {rel: 'icon', href: 'img/favicon.svg'}],
+        [
+            'link',
+            {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-web/1.330.0/style.css'}
+        ]
     ],
     themeConfig: {
         // 展示 2,3 级标题在目录中
