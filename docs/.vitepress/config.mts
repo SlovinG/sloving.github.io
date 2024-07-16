@@ -62,7 +62,7 @@ export default defineConfig({
             {text: 'MySQL', link: '/MySQL/'},
             {text: 'JavaWeb', link: '/JavaWeb/'},
             {text: 'Linux', link: '/Linux/'},
-            {text: '九阳真经', link: '/ZhenJing/九阳真经'},
+            {text: '面试秘籍', link: '/ZhenJing/'},
             {text: '生活随笔', link: '/Life/'}
         ],
         // 友链
@@ -74,7 +74,11 @@ export default defineConfig({
         ],
         // 侧边栏
         sidebar: {
+            "/ZhenJing/": [
+                {text: '八股手册', link: '/ZhenJing/八股手册'},
+                {text: '项目问答', link: '/ZhenJing/项目问答'}],
             "/Life/": [
+                {text: '京城夜奔', link: '/Life/京城夜奔'},
                 {text: '四月纪事', link: '/Life/四月纪事'},
                 {text: '读研的另一种感受', link: '/Life/读研的另一种感受'},
                 {text: '寒假结束', link: '/Life/寒假结束'},
@@ -104,7 +108,7 @@ export default defineConfig({
                 {text: '重读父母', link: '/Life/重读父母'},
                 {text: '青少年恋爱手册', link: '/Life/青少年恋爱手册'},
                 {text: '放假', link: '/Life/放假'},
-                {text: '马原考完', link: '/Life/马原考完'},
+                {text: '乌合之众', link: '/Life/乌合之众'},
                 {text: '关于受害者有罪论', link: '/Life/关于受害者有罪论'},
                 {text: '搬家', link: '/Life/搬家'},
                 {text: '老歌', link: '/Life/老歌'},
