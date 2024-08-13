@@ -250,6 +250,7 @@ export default defineConfig({
                         {text: '98.验证二叉搜索树', link: '/LeetCode/98.验证二叉搜索树'},
                         {text: '530.二叉搜索树的最小绝对差', link: '/LeetCode/530.二叉搜索树的最小绝对差'},
                         {text: '501.二叉搜索树中的众数', link: '/LeetCode/501.二叉搜索树中的众数'},
+                        {text: '236.二叉树的最近公共祖先', link: '/LeetCode/236.二叉树的最近公共祖先'},
                     ]
                 }
             ],
