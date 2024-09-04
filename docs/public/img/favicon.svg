@@ -1,0 +1,58 @@
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="xMidYMid meet"
+        color-interpolation-filters="sRGB" style="margin: auto">
+        <g class="iconsvg-imagesvg" transform="translate(0,0)" mask="url(#2668bfb3-d8e7-46b2-bb78-c5b8fbbcc8da)">
+            <g>
+                <svg x="0" y="0" width="60" height="60" filtersec="colorsb2833018793" class="image-svg-svg primary"
+                    style="overflow: visible">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0.01999998837709427 0 304.0574035644531 300.7699890136719">
+                        <path
+                            d="M271.19 56.01A152.11 152.11 0 0 0 191.91 3.7c-22 25.86-42.16 53.23-55.59 83.66a206.54 206.54 0 0 0-10.22 28.55 411.54 411.54 0 0 1 97.92-26.57c15.32-2.18 32.66-2.93 44.4 7.16 13.84 11.9 13.56 33.38 9.34 51.14-11.89 50-45 92-80.07 129.51-7.43 7.94-15 15.78-22.61 23.62a152.06 152.06 0 0 0 96.1-244.76z"
+                            fill="#0d9e5f"></path>
+                        <path
+                            d="M180.74 151.82c-13.56-13-35.59-11.17-53.25-4.7a137.6 137.6 0 0 0-77.47 72.34 600.45 600.45 0 0 1 26.41-105.38A608 608 0 0 1 130.07 0 152.07 152.07 0 0 0 .02 150.46a154 154 0 0 0 .85 16.16 152.19 152.19 0 0 0 115.45 131.67q23.78-24.44 45.14-51.09c15.07-18.81 29.77-40 30.44-64.12.32-11.39-2.95-23.37-11.16-31.26z"
+                            fill="#0d9e5f"></path>
+                    </svg>
+                </svg>
+            </g>
+            <rect v-gra="id" width="72" height="71.35129165649414" transform="translate(-6, -6)"
+                style="pointer-events:none;" fill="url(#d6e18NrJFwGYF3YFE1aG-)"></rect>
+        </g>
+        <defs v-gra="od"></defs>
+        <defs v-gra="id">
+            <filter id="47b0f960-69b0-4b97-8be2-effa63189b5e" filterUnits="userSpaceOnUse">
+                <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0"></feColorMatrix>
+            </filter>
+            <linearGradient x1="0" y1="1" x2="0" y2="0" id="d6e18NrJFwGYF3YFE1aG-">
+                <stop offset="0%" stop-color="#12c2e9"></stop>
+                <stop offset="50%" stop-color="#c471ed"></stop>
+                <stop offset="100%" stop-color="#f64f59"></stop>
+            </linearGradient>
+            <filter id="42443b3f1de60f6b6fd3b6a9844b4764" filterUnits="objectBoundingBox">
+                <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0"></feColorMatrix>
+            </filter>
+        </defs>
+        <mask v-gra="im" id="2668bfb3-d8e7-46b2-bb78-c5b8fbbcc8da">
+            <g class="iconsvg-imagesvg" filter="url(#47b0f960-69b0-4b97-8be2-effa63189b5e)">
+                <g>
+                    <rect fill="#ffffff" fill-opacity="0" stroke-width="2" x="0" y="0" width="60"
+                        height="59.35129039597202" class="image-rect"></rect>
+                    <svg x="0" y="0" width="60" height="59.35129039597202" filtersec="colorsb2833018793"
+                        class="image-svg-svg primary" style="overflow: visible;">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0.01999998837709427 0 304.0574035644531 300.7699890136719">
+                            <path
+                                d="M271.19 56.01A152.11 152.11 0 0 0 191.91 3.7c-22 25.86-42.16 53.23-55.59 83.66a206.54 206.54 0 0 0-10.22 28.55 411.54 411.54 0 0 1 97.92-26.57c15.32-2.18 32.66-2.93 44.4 7.16 13.84 11.9 13.56 33.38 9.34 51.14-11.89 50-45 92-80.07 129.51-7.43 7.94-15 15.78-22.61 23.62a152.06 152.06 0 0 0 96.1-244.76z"
+                                fill="#0d9e5f"></path>
+                            <path
+                                d="M180.74 151.82c-13.56-13-35.59-11.17-53.25-4.7a137.6 137.6 0 0 0-77.47 72.34 600.45 600.45 0 0 1 26.41-105.38A608 608 0 0 1 130.07 0 152.07 152.07 0 0 0 .02 150.46a154 154 0 0 0 .85 16.16 152.19 152.19 0 0 0 115.45 131.67q23.78-24.44 45.14-51.09c15.07-18.81 29.77-40 30.44-64.12.32-11.39-2.95-23.37-11.16-31.26z"
+                                fill="#0d9e5f"></path>
+                        </svg>
+                    </svg> <!---->
+                </g>
+            </g>
+        </mask>
+    </svg>
