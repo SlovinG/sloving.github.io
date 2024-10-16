@@ -78,6 +78,7 @@ export default defineConfig({
                 {text: '八股手册', link: '/ZhenJing/八股手册'},
                 {text: '项目问答', link: '/ZhenJing/项目问答'}],
             "/Life/": [
+                {text: '十年前的论坛', link: '/Life/十年前的论坛'},
                 {text: '于道各努力，千里自同风', link: '/Life/于道各努力，千里自同风'},
                 {text: '京城夜奔', link: '/Life/京城夜奔'},
                 {text: '四月纪事', link: '/Life/四月纪事'},
