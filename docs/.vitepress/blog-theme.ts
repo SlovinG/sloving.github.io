@@ -116,7 +116,12 @@ const blogTheme = getThemeConfig({
         categoryId: 'DIC_kwDODrF2vs4CgAF8',
         inputPosition: 'top'
     },
-
+    buttonAfterArticle: {
+        openTitle: '打赏作者',
+        closeTitle: '下次一定',
+        content: '<img src="https://sloving.top/img/appreciationCode.png">',
+        icon: 'wechatPay'
+    },
     // 打赏插件
     blogSponsor: {
         type: 'simple',
