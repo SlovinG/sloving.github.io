@@ -114,7 +114,14 @@ const blogTheme = getThemeConfig({
         repoId: 'MDEwOlJlcG9zaXRvcnkyNDY1MTEyOTQ=',
         category: 'Announcements',
         categoryId: 'DIC_kwDODrF2vs4CgAF8',
-        inputPosition: 'top',
+        inputPosition: 'top'
+    },
+
+    // 打赏插件
+    blogSponsor: {
+        type: 'simple',
+        aliPayQR: 'https://sloving.top/img/aliPayQR.jpg',
+        weChatQR: 'https://sloving.top/img/weChatQR.png'
     }
 })
 
