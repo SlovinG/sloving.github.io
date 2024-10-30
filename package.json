@@ -14,7 +14,7 @@
     "@sugarat/theme": "^0.5.1",
     "element-plus": "^2.5.3",
     "pagefind": "^1.1.0",
-    "vitepress-plugin-sponsor": "^0.1.3",
+    "vitepress-plugin-sponsor": "^0.1.4",
     "vue": "3.4.21"
   },
   "directories": {
