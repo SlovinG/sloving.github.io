@@ -2,6 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // 导入主题的配置
 import {blogTheme} from './blog-theme'
+import {SponsorPlugin} from "../../vitepress-plugin-sponsor/src";
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
@@ -487,5 +488,18 @@ export default defineConfig({
                 {text: '初识微服务', link: '/Note/初识微服务'},
             ],
         },
+    },
+    vite:{
+        plugins:[
+            // 打赏插件
+            SponsorPlugin({
+                /**
+                 * 打赏模块样式
+                 */
+                type: 'simple',
+                aliPayQR: 'https://sloving.top/img/aliPayQR.jpg',
+                weChatQR: 'https://sloving.top/img/weChatQR.png'
+            })
+        ]
     }
 })
