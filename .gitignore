@@ -1,5 +1,5 @@
 node_modules/
-vitepress-plugin-sponsor/
+packages/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 cache/
