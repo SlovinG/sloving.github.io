@@ -63,7 +63,6 @@ export default defineConfig({
             {text: 'MySQL', link: '/MySQL/'},
             {text: 'JavaWeb', link: '/JavaWeb/'},
             {text: 'Linux', link: '/Linux/'},
-            {text: '面试秘籍', link: '/ZhenJing/'},
             {text: '生活随笔', link: '/Life/'}
         ],
         // 友链
@@ -75,9 +74,6 @@ export default defineConfig({
         ],
         // 侧边栏
         sidebar: {
-            "/ZhenJing/": [
-                {text: '八股手册', link: '/ZhenJing/八股手册'},
-                {text: '项目问答', link: '/ZhenJing/项目问答'}],
             "/Life/": [
                 {text: '毕业生必看的薪资结构解析', link: '/Life/毕业生必看的薪资结构解析'},
                 {text: '十年前的论坛', link: '/Life/十年前的论坛'},
@@ -259,59 +255,49 @@ export default defineConfig({
                 }
             ],
             "/Java/": [
+                {text: 'Java BufferedReader流', link: '/Java/Java BufferedReader流'},
+                {text: 'Java IO', link: '/Java/Java IO'},
+                {text: 'Java Optional类', link: '/Java/Java Optional类'},
+                {text: 'Java Stream', link: '/Java/Java Stream'},
+                {text: 'Java 双端队列 Deque', link: '/Java/Java 双端队列 Deque'},
+                {text: 'Java 正则表达式', link: '/Java/Java 正则表达式'},
+                {text: 'Java 泛型', link: '/Java/Java 泛型'},
                 {
-                    text: 'Java',
-                    items: [
-                        {text: 'Java BufferedReader流', link: '/Java/Java BufferedReader流'},
-                        {text: 'Java IO', link: '/Java/Java IO'},
-                        {text: 'Java Optional类', link: '/Java/Java Optional类'},
-                        {text: 'Java Stream', link: '/Java/Java Stream'},
-                        {text: 'Java 双端队列 Deque', link: '/Java/Java 双端队列 Deque'},
-                        {text: 'Java 正则表达式', link: '/Java/Java 正则表达式'},
-                        {text: 'Java 泛型', link: '/Java/Java 泛型'},
-                        {
-                            text: 'Java中为什么使用向上转型而不直接创建子类对象',
-                            link: '/Java/Java中为什么使用向上转型而不直接创建子类对象'
-                        },
-                        {text: 'Java中实现POJO类的序列化', link: '/Java/Java中实现POJO类的序列化'},
-                        {text: 'Java的注解与反射机制', link: '/Java/Java的注解与反射机制'},
-                        {text: 'Java集合框架综述', link: '/Java/Java集合框架综述'},
-                        {text: 'JDBC各个类的详解', link: '/Java/JDBC各个类的详解'},
-                        {text: '初识多线程', link: '/Java/初识多线程'}
-                    ]
-                }
+                    text: 'Java中为什么使用向上转型而不直接创建子类对象',
+                    link: '/Java/Java中为什么使用向上转型而不直接创建子类对象'
+                },
+                {text: 'Java中实现POJO类的序列化', link: '/Java/Java中实现POJO类的序列化'},
+                {text: 'Java的注解与反射机制', link: '/Java/Java的注解与反射机制'},
+                {text: 'Java集合框架综述', link: '/Java/Java集合框架综述'},
+                {text: 'JDBC各个类的详解', link: '/Java/JDBC各个类的详解'},
+                {text: '初识多线程', link: '/Java/初识多线程'}
             ],
             "/JavaWeb/": [
+                {text: 'xml总结', link: '/JavaWeb/xml总结'},
+                {text: 'Web概述', link: '/JavaWeb/Web概述'},
+                {text: 'HTTP协议', link: '/JavaWeb/HTTP协议'},
+                {text: '会话技术', link: '/JavaWeb/会话技术'},
                 {
-                    text: 'JavaWeb',
-                    items: [
-                        {text: 'xml总结', link: '/JavaWeb/xml总结'},
-                        {text: 'Web概述', link: '/JavaWeb/Web概述'},
-                        {text: 'HTTP协议', link: '/JavaWeb/HTTP协议'},
-                        {text: '会话技术', link: '/JavaWeb/会话技术'},
-                        {
-                            text: 'HTTP协议无状态中的【状态】到底指的是什么？！',
-                            link: '/JavaWeb/HTTP协议无状态中的【状态】到底指的是什么？！'
-                        },
-                        {
-                            text: 'Cookie和Session、SessionID的那些事儿',
-                            link: '/JavaWeb/Cookie和Session、SessionID的那些事儿'
-                        },
-                        {text: 'Servlet总结', link: '/JavaWeb/Servlet总结'},
-                        {text: 'Request和Response', link: '/JavaWeb/Request和Response'},
-                        {text: 'Tomcat深入理解', link: '/JavaWeb/Tomcat深入理解'},
-                        {text: 'JSP总结', link: '/JavaWeb/JSP总结'},
-                        {text: 'JSTL和EL表达式', link: '/JavaWeb/JSTL和EL表达式'},
-                        {text: 'MVC模式和三层架构', link: '/JavaWeb/MVC模式和三层架构'},
-                        {text: 'JSON和AJAX总结', link: '/JavaWeb/JSON和AJAX总结'},
-                        {text: 'Filter和Listener总结', link: '/JavaWeb/Filter和Listener总结'},
-                        {
-                            text: 'J2EE开发开发中PO,BO,VO,DTO,POJO,DAO的概念及其作用',
-                            link: '/JavaWeb/J2EE开发开发中PO,BO,VO,DTO,POJO,DAO的概念及其作用'
-                        },
-                        {text: 'Java开发的主流框架演变', link: '/JavaWeb/Java开发的主流框架演变'},
-                    ]
-                }
+                    text: 'HTTP协议无状态中的【状态】到底指的是什么？！',
+                    link: '/JavaWeb/HTTP协议无状态中的【状态】到底指的是什么？！'
+                },
+                {
+                    text: 'Cookie和Session、SessionID的那些事儿',
+                    link: '/JavaWeb/Cookie和Session、SessionID的那些事儿'
+                },
+                {text: 'Servlet总结', link: '/JavaWeb/Servlet总结'},
+                {text: 'Request和Response', link: '/JavaWeb/Request和Response'},
+                {text: 'Tomcat深入理解', link: '/JavaWeb/Tomcat深入理解'},
+                {text: 'JSP总结', link: '/JavaWeb/JSP总结'},
+                {text: 'JSTL和EL表达式', link: '/JavaWeb/JSTL和EL表达式'},
+                {text: 'MVC模式和三层架构', link: '/JavaWeb/MVC模式和三层架构'},
+                {text: 'JSON和AJAX总结', link: '/JavaWeb/JSON和AJAX总结'},
+                {text: 'Filter和Listener总结', link: '/JavaWeb/Filter和Listener总结'},
+                {
+                    text: 'J2EE开发开发中PO,BO,VO,DTO,POJO,DAO的概念及其作用',
+                    link: '/JavaWeb/J2EE开发开发中PO,BO,VO,DTO,POJO,DAO的概念及其作用'
+                },
+                {text: 'Java开发的主流框架演变', link: '/JavaWeb/Java开发的主流框架演变'},
             ],
             "/MySQL/": [
                 {text: '初识MySQL', link: '/MySQL/初识MySQL'},
@@ -352,7 +338,7 @@ export default defineConfig({
                     ]
                 },
                 {
-                    text: 'Mybatis',
+                    text: 'MyBatis',
                     collapsed: false,
                     items: [
                         {text: '初识MyBatis', link: '/SSM/初识MyBatis'},
@@ -476,21 +462,27 @@ export default defineConfig({
                         {text: 'Kubernetes 基础概念', link: '/Note/Kubernetes基础概念'}
                     ]
                 },
-                {text: '分布式中的 CAP 理论', link: '/Note/分布式中的CAP理论'},
-                {text: 'JUnit4 的使用教程', link: '/Note/JUnit4的使用教程'},
-                {text: '一文详解回调地狱', link: '/Note/一文详解回调地狱'},
-                {text: '初识 JWT', link: '/Note/初识JWT'},
-                {text: '浅谈 CSRF 攻击', link: '/Note/浅谈CSRF攻击'},
-                {text: '浅谈 XSS 攻击', link: '/Note/浅谈XSS攻击'},
-                {text: '负载均衡集群中的 Session 解决方案', link: '/Note/负载均衡集群中的Session解决方案'},
-                {text: '项目开发和管理流程', link: '/Note/项目开发和管理流程'},
-                {text: '电商架构演进之路', link: '/Note/电商架构演进之路'},
-                {text: '初识微服务', link: '/Note/初识微服务'},
+                {
+                    text: 'Others',
+                    collapsed: false,
+                    items: [
+                        {text: '分布式中的 CAP 理论', link: '/Note/分布式中的CAP理论'},
+                        {text: 'JUnit4 的使用教程', link: '/Note/JUnit4的使用教程'},
+                        {text: '一文详解回调地狱', link: '/Note/一文详解回调地狱'},
+                        {text: '初识 JWT', link: '/Note/初识JWT'},
+                        {text: '浅谈 CSRF 攻击', link: '/Note/浅谈CSRF攻击'},
+                        {text: '浅谈 XSS 攻击', link: '/Note/浅谈XSS攻击'},
+                        {text: '负载均衡集群中的 Session 解决方案', link: '/Note/负载均衡集群中的Session解决方案'},
+                        {text: '项目开发和管理流程', link: '/Note/项目开发和管理流程'},
+                        {text: '电商架构演进之路', link: '/Note/电商架构演进之路'},
+                        {text: '初识微服务', link: '/Note/初识微服务'},
+                    ]
+                }
             ],
         },
     },
-    vite:{
-        plugins:[
+    vite: {
+        plugins: [
             // 打赏插件
             SponsorPlugin({
                 /**
