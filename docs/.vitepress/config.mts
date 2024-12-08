@@ -75,6 +75,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
+                {text: '平凡生活，英雄梦想', link: '/Life/平凡生活，英雄梦想'},
                 {text: '毕业生必看的薪资结构解析', link: '/Life/毕业生必看的薪资结构解析'},
                 {text: '十年前的论坛', link: '/Life/十年前的论坛'},
                 {text: '于道各努力，千里自同风', link: '/Life/于道各努力，千里自同风'},

@@ -1,7 +1,7 @@
 ---
 title: 初识JWT
 date: 2020-09-29
-description: JSON Web Token（简称 JWT）是目前最流行的跨域认证解决方案。
+description: JSON Web Token（简称 JWT）是目前最流行的跨域认证解决方案
 tags: 
  - JWT
 categories:
