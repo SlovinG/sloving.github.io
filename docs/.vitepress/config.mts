@@ -75,6 +75,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
+                {text: '杀死那个一条腿的人', link: '/Life/杀死那个一条腿的人'},
                 {text: '三体和蚁族', link: '/Life/三体和蚁族'},
                 {text: '学生时代最后的会面', link: '/Life/学生时代最后的会面'},
                 {text: '平凡生活，英雄梦想', link: '/Life/平凡生活，英雄梦想'},
