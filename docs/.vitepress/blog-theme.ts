@@ -1,19 +1,17 @@
 // 主题独有配置
-import {getThemeConfig, SearchConfig} from '@sugarat/theme/node'
+import type { Theme } from '@sugarat/theme'
+import { getThemeConfig } from '@sugarat/theme/node'
 
 // 开启RSS支持（RSS配置）
 // import type { Theme } from '@sugarat/theme'
 
-// const baseUrl = 'https://sugarat.top'
-// const RSS: Theme.RSSOptions = {
-//   title: '粥里有勺糖',
-//   baseUrl,
-//   copyright: 'Copyright (c) 2018-present, 粥里有勺糖',
-//   description: '你的指尖,拥有改变世界的力量（大前端相关技术分享）',
-//   language: 'zh-cn',
-//   image: 'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
-//   favicon: 'https://sugarat.top/favicon.ico',
-// }
+const baseUrl = 'https://sloving.top'
+const RSS: Theme.RSSOptions = {
+   title: 'SlovinG\'s Blog',
+   baseUrl,
+   copyright: 'Copyright (c) 2019-present, SlovinG',
+   description: '来日放榜簪花在春衫，一朝等闲驰马到江南',
+}
 
 // 所有配置项，详见文档: https://theme.sugarat.top/
 const blogTheme = getThemeConfig({
@@ -23,7 +21,29 @@ const blogTheme = getThemeConfig({
     // 搜索
     // 默认开启pagefind离线的全文搜索支持（如使用其它的可以设置为false）
     // 如果npx pagefind 时间过长，可以手动将其安装为项目依赖 pnpm add pagefind
-    search: true,
+    search: {
+        pageResultCount: 5,
+        btnPlaceholder: '搜索',
+        placeholder: '搜索文章',
+        emptyText: '没有找到相关文章',
+        heading: '结果数: {{searchResult}} 条。',
+        toSelect: '选择',
+        toClose: '关闭',
+        toNavigate: '移动',
+        searchBy: 'Powered by',
+        locales: {
+            en: {
+                btnPlaceholder: 'Search',
+                placeholder: 'Search Docs',
+                emptyText: 'No results found',
+                heading: 'Total: {{searchResult}} search results.',
+                toSelect: 'to select',
+                toClose: 'to close',
+                toNavigate: 'to navigate',
+                searchBy: 'Search by',
+            }
+        }
+    },
 
     // 页脚
     footer: {
@@ -48,13 +68,6 @@ const blogTheme = getThemeConfig({
 
     // 友链
     friend: [
-        {
-            nickname: '原先的博客',
-            des: '基于vuepress的博客',
-            avatar:
-                'https://sloving.top/viteblog/head.png',
-            url: 'https://sloving.top/viteblog/',
-        },
         {
             nickname: '粥里有勺糖',
             des: '你的指尖用于改变世界的力量',
