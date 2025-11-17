@@ -90,7 +90,7 @@ const blogTheme = getThemeConfig({
         duration: -1,
         mobileMinify: false,
         reopen: true,
-        twinkle: false,
+        twinkle: true,
         body: [
             {type: 'text', content: '👇 我的微信 👇----👇 我的 QQ 👇'},
             {
