@@ -21,7 +21,7 @@ export default defineConfig({
     lang: 'zh-cn',
     title: 'SlovinG',
     description: '为学应尽毕生力，攀高须贵少年时',
-    lastUpdated: true,
+    lastUpdated: false,
     // 详见：https://vitepress.dev/zh/reference/site-config#head
     head: [
         // 配置网站的图标（显示在浏览器的 tab 上）
