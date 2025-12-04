@@ -103,6 +103,7 @@ export default defineConfig({
                 {text: '樱花节后', link: '/Life/樱花节后'},
                 {text: '领证', link: '/Life/领证'},
                 {text: '夜晚漫步', link: '/Life/夜晚漫步'},
+                {text: '失恋后的那一天', link: '/Life/失恋后的那一天'},
                 {text: '元旦', link: '/Life/元旦'},
                 {text: '记忆和火锅', link: '/Life/记忆和火锅'},
                 {text: '做你认为正确的事', link: '/Life/做你认为正确的事'},
