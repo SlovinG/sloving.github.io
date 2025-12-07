@@ -74,6 +74,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
+                {text: '那天我没买任何套餐', link: '/Life/那天我没买任何套餐'},
                 {text: '群山和人群', link: '/Life/群山和人群'},
                 {text: '杀死那个一条腿的人', link: '/Life/杀死那个一条腿的人'},
                 {text: '三体和蚁族', link: '/Life/三体和蚁族'},
