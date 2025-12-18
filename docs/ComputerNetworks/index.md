@@ -8,6 +8,6 @@ recommend: false
 
 # 计算机网络
 
-- [物理层、数据链路层、网络层](./物理层、数据链路层、网络层.md)
-- [一文详解TCP](./一文详解TCP.md)
-- [一文详解Socket](./一文详解Socket.md)
+- [物理层、数据链路层、网络层](../Note/物理层、数据链路层、网络层.md)
+- [一文详解TCP](../Note/一文详解TCP.md)
+- [一文详解Socket](../Note/一文详解Socket.md)

@@ -58,7 +58,6 @@ export default defineConfig({
             {text: 'SpringBoot', link: '/SpringBoot/'},
             {text: 'SSM', link: '/SSM/'},
             {text: '笔记', link: '/Note/'},
-            {text: '计算机网络', link: '/ComputerNetworks/'},
             {text: 'MySQL', link: '/MySQL/'},
             {text: 'JavaWeb', link: '/JavaWeb/'},
             {text: 'Linux', link: '/Linux/'},
@@ -331,11 +330,6 @@ export default defineConfig({
                 {text: 'Vim 使用及账号用户管理', link: '/Linux/Vim使用及账号用户管理'},
                 {text: '三种软件安装方式及服务器基本环境搭建', link: '/Linux/三种软件安装方式及服务器基本环境搭建'},
             ],
-            "/ComputerNetworks/": [
-                {text: '物理层、数据链路层、网络层', link: '/ComputerNetworks/物理层、数据链路层、网络层'},
-                {text: '一文详解TCP', link: '/ComputerNetworks/一文详解TCP'},
-                {text: '一文详解Socket', link: '/ComputerNetworks/一文详解Socket'},
-            ],
             "/SSM/": [
                 {
                     text: 'SSM框架',
@@ -437,6 +431,15 @@ export default defineConfig({
                         {text: 'Maven 依赖', link: '/Note/Maven依赖'},
                         {text: 'Maven 继承与聚合', link: '/Note/Maven继承与聚合'},
                         {text: 'Maven settings.xml 配置文件解读', link: '/Note/Maven settings.xml 配置文件解读'}
+                    ]
+                },
+                {
+                    text: '计算机网络',
+                    collapsed: false,
+                    items: [
+                        {text: '物理层、数据链路层、网络层', link: '/Note/物理层、数据链路层、网络层'},
+                        {text: '一文详解TCP', link: '/Note/一文详解TCP'},
+                        {text: '一文详解Socket', link: '/Note/一文详解Socket'},
                     ]
                 },
                 {
