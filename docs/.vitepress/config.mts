@@ -73,7 +73,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
-                {text: '入冬之前', link: '/Life/入冬之前'},
+                {text: '入冬以前', link: '/Life/入冬以前'},
                 {text: '无名的人', link: '/Life/无名的人'},
                 {text: '群山和人群', link: '/Life/群山和人群'},
                 {text: '杀死那个一条腿的人', link: '/Life/杀死那个一条腿的人'},
