@@ -73,6 +73,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
+                {text: '人间烟火气', link: '/Life/人间烟火气'},
                 {text: '入冬以前', link: '/Life/入冬以前'},
                 {text: '无名的人', link: '/Life/无名的人'},
                 {text: '群山和人群', link: '/Life/群山和人群'},
