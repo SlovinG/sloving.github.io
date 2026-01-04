@@ -73,13 +73,13 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
-                {text: '人间烟火气——写给平平出击', link: '/Life/人间烟火气——写给平平出击'},
+                {text: '人间烟火气', link: '/Life/人间烟火气'},
                 {text: '入冬以前', link: '/Life/入冬以前'},
                 {text: '无名的人', link: '/Life/无名的人'},
                 {text: '群山和人群', link: '/Life/群山和人群'},
                 {text: '杀死那个一条腿的人', link: '/Life/杀死那个一条腿的人'},
                 {text: '三体和蚁族', link: '/Life/三体和蚁族'},
-                {text: '一起扛过枪', link: '/Life/一起扛过枪'},
+                {text: '最后的六九折', link: '/Life/最后的六九折'},
                 {text: '曲终，所以人散', link: '/Life/曲终，所以人散'},
                 {text: '平凡生活，英雄梦想', link: '/Life/平凡生活，英雄梦想'},
                 {text: '毕业生必看的薪资结构解析', link: '/Life/毕业生必看的薪资结构解析'},
