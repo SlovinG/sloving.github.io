@@ -53,6 +53,7 @@ export default defineConfig({
         // },
         // 导航栏
         nav: [
+            {text: '生活随笔', link: '/Life/'},
             {text: '力扣每日一题', link: '/LeetCode/'},
             {text: 'Java', link: '/Java/'},
             {text: 'SpringBoot', link: '/SpringBoot/'},
@@ -60,8 +61,7 @@ export default defineConfig({
             {text: '笔记', link: '/Note/'},
             {text: 'MySQL', link: '/MySQL/'},
             {text: 'JavaWeb', link: '/JavaWeb/'},
-            {text: 'Linux', link: '/Linux/'},
-            {text: '生活随笔', link: '/Life/'}
+            {text: 'Linux', link: '/Linux/'}
         ],
         // 友链
         socialLinks: [
