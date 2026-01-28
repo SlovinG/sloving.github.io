@@ -49,7 +49,7 @@ jobs:
         with:
           node-version: 20
 
-      # 使用 PNPM V8
+      # 使用 PNPM V10
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
