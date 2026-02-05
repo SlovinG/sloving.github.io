@@ -73,6 +73,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
+                {text: '游京', link: '/Life/游京'},
                 {text: '风吹雨打度良宵，挣残命一条', link: '/Life/风吹雨打度良宵，挣残命一条'},
                 {text: '人间烟火气', link: '/Life/人间烟火气'},
                 {text: '入冬以前', link: '/Life/入冬以前'},
