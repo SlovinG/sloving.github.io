@@ -72,7 +72,7 @@ export default defineConfig({
         sidebar: {
             "/Life/": [
                 {text: '游京', link: '/Life/游京'},
-                {text: '风吹雨打度良宵，挣残命一条', link: '/Life/风吹雨打度良宵，挣残命一条'},
+                {text: '风雪山神庙', link: '/Life/风雪山神庙'},
                 {text: '人间烟火气', link: '/Life/人间烟火气'},
                 {text: '入冬以前', link: '/Life/入冬以前'},
                 {text: '无名的人', link: '/Life/无名的人'},
@@ -81,7 +81,7 @@ export default defineConfig({
                 {text: '三体和蚁族', link: '/Life/三体和蚁族'},
                 {text: '最后的六九折', link: '/Life/最后的六九折'},
                 {text: '曲终，所以人散', link: '/Life/曲终，所以人散'},
-                {text: '他的夜航船', link: '/Life/他的夜航船'},
+                {text: '夜航船', link: '/Life/夜航船'},
                 {text: '平凡生活，英雄梦想', link: '/Life/平凡生活，英雄梦想'},
                 {text: '毕业生必看的薪资结构解析', link: '/Life/毕业生必看的薪资结构解析'},
                 {text: '十年前的论坛', link: '/Life/十年前的论坛'},
