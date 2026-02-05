@@ -41,9 +41,7 @@ export default defineConfig({
         // 默认文案修改
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '相关文章',
-        lastUpdated: {
-            Text: '上次更新于'
-        },
+        lastUpdatedText: '上次更新于',
         // 设置logo
         logo: '/img/favicon.svg',
         // editLink: {
