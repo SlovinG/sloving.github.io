@@ -92,7 +92,7 @@ export default defineConfig({
                 {text: '寒假结束', link: '/Life/寒假结束'},
                 {text: '保护好眼睛', link: '/Life/保护好眼睛'},
                 {text: '武汉的聚会', link: '/Life/武汉的聚会'},
-                {text: '平平安安', link: '/Life/平平安安'},
+                {text: '报平安', link: '/Life/报平安'},
                 {text: '生日快乐', link: '/Life/生日快乐'},
                 {text: '姐姐', link: '/Life/姐姐'},
                 {text: '大学最后的暑假', link: '/Life/大学最后的暑假'},
