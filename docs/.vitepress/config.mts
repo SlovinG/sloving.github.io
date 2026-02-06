@@ -118,7 +118,7 @@ export default defineConfig({
                 {text: '青少年恋爱手册', link: '/Life/青少年恋爱手册'},
                 {text: '放假', link: '/Life/放假'},
                 {text: '乌合之众', link: '/Life/乌合之众'},
-                {text: '关于受害者有罪论', link: '/Life/关于受害者有罪论'},
+                {text: '受害者有罪论', link: '/Life/受害者有罪论'},
                 {text: '搬家', link: '/Life/搬家'},
                 {text: '老歌', link: '/Life/老歌'},
                 {text: '碎屏险', link: '/Life/碎屏险'},
