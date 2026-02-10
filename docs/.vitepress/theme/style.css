@@ -1,12 +1,12 @@
 /* 定义遮罩样式 */
 .VPHome {
-    background: radial-gradient(ellipse, rgba(var(--bg-gradient-home), 1) 0%, rgba(var(--bg-gradient-home), 0) 150%);
+    background: radial-gradient(ellipse, rgba(var(--bg-gradient-home), 1) 0%, rgba(var(--bg-gradient-home), 0) 140%);
 }
 
 /* 自定义首页背景图 */
 .VPHome::before {
     /* 图片来源：https://zhuanlan.zhihu.com/p/54060187 */
-    background-image: url(./assets/40.jpg);
+    background-image: url(./assets/bg-home.webp);
     background-size: cover;
 }
 

@@ -12,6 +12,9 @@ import { SponsorPlugin } from "vitepress-plugin-sponsor";
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
+    sitemap: {
+        hostname: 'https://sloving.top'
+    },
     // 忽略死链
     ignoreDeadLinks: true,
     // 继承博客主题(@sugarat/theme)
