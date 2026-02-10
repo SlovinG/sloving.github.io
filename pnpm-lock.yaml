@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@sugarat/theme':
-    hash: e9c7eabebb1fa4c256023df3e9c1a60b8d49f7dd8a923a4880d7043d459e887c
+    hash: f2d5dd3e542245d711487a356139a965ebf8706c63edec5954f38cab4674dd45
     path: patches/@sugarat__theme.patch
 
 importers:
@@ -15,7 +15,7 @@ importers:
     dependencies:
       '@sugarat/theme':
         specifier: ^0.5.14
-        version: 0.5.14(patch_hash=e9c7eabebb1fa4c256023df3e9c1a60b8d49f7dd8a923a4880d7043d459e887c)(@element-plus/icons-vue@2.3.2(vue@3.5.26(typescript@5.9.3)))(element-plus@2.11.3(vue@3.5.26(typescript@5.9.3)))(pagefind@1.4.0)(vite@7.3.1(@types/node@22.19.3)(sass-embedded@1.97.2)(sass@1.97.2))(vitepress@2.0.0-alpha.15(@algolia/client-search@5.46.2)(@types/node@22.19.3)(async-validator@4.2.5)(postcss@8.5.6)(react@19.2.3)(sass-embedded@1.97.2)(sass@1.97.2)(search-insights@2.17.3)(typescript@5.9.3))(vue@3.5.26(typescript@5.9.3))
+        version: 0.5.14(patch_hash=f2d5dd3e542245d711487a356139a965ebf8706c63edec5954f38cab4674dd45)(@element-plus/icons-vue@2.3.2(vue@3.5.26(typescript@5.9.3)))(element-plus@2.11.3(vue@3.5.26(typescript@5.9.3)))(pagefind@1.4.0)(vite@7.3.1(@types/node@22.19.3)(sass-embedded@1.97.2)(sass@1.97.2))(vitepress@2.0.0-alpha.15(@algolia/client-search@5.46.2)(@types/node@22.19.3)(async-validator@4.2.5)(postcss@8.5.6)(react@19.2.3)(sass-embedded@1.97.2)(sass@1.97.2)(search-insights@2.17.3)(typescript@5.9.3))(vue@3.5.26(typescript@5.9.3))
     devDependencies:
       pagefind:
         specifier: ^1.3.0
@@ -2768,7 +2768,7 @@ snapshots:
       cross-spawn: 7.0.6
       gray-matter: 4.0.3
 
-  '@sugarat/theme@0.5.14(patch_hash=e9c7eabebb1fa4c256023df3e9c1a60b8d49f7dd8a923a4880d7043d459e887c)(@element-plus/icons-vue@2.3.2(vue@3.5.26(typescript@5.9.3)))(element-plus@2.11.3(vue@3.5.26(typescript@5.9.3)))(pagefind@1.4.0)(vite@7.3.1(@types/node@22.19.3)(sass-embedded@1.97.2)(sass@1.97.2))(vitepress@2.0.0-alpha.15(@algolia/client-search@5.46.2)(@types/node@22.19.3)(async-validator@4.2.5)(postcss@8.5.6)(react@19.2.3)(sass-embedded@1.97.2)(sass@1.97.2)(search-insights@2.17.3)(typescript@5.9.3))(vue@3.5.26(typescript@5.9.3))':
+  '@sugarat/theme@0.5.14(patch_hash=f2d5dd3e542245d711487a356139a965ebf8706c63edec5954f38cab4674dd45)(@element-plus/icons-vue@2.3.2(vue@3.5.26(typescript@5.9.3)))(element-plus@2.11.3(vue@3.5.26(typescript@5.9.3)))(pagefind@1.4.0)(vite@7.3.1(@types/node@22.19.3)(sass-embedded@1.97.2)(sass@1.97.2))(vitepress@2.0.0-alpha.15(@algolia/client-search@5.46.2)(@types/node@22.19.3)(async-validator@4.2.5)(postcss@8.5.6)(react@19.2.3)(sass-embedded@1.97.2)(sass@1.97.2)(search-insights@2.17.3)(typescript@5.9.3))(vue@3.5.26(typescript@5.9.3))':
     dependencies:
       '@element-plus/icons-vue': 2.3.2(vue@3.5.26(typescript@5.9.3))
       '@giscus/vue': 3.1.1(vue@3.5.26(typescript@5.9.3))

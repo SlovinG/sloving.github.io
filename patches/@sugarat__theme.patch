@@ -1,3 +1,31 @@
+diff --git a/node.js b/node.js
+index 1ad4a43fca28566d00402ef0684c21042636096f..527347d325afa7f1b17fabc5fd38f167731b7488 100644
+--- a/node.js
++++ b/node.js
+@@ -422,7 +422,8 @@ async function getArticleMeta(filepath, route, timeZone = defaultTimeZoneOffset,
+   meta.tag = [meta.tag || []].flat().concat([
+     .../* @__PURE__ */ new Set([...meta.categories || [], ...meta.tags || []])
+   ]);
+-  meta.description = meta.description || (0, import_theme_shared2.getTextSummary)(content, 100) || excerpt;
++  const contentWithoutHeadings = content.replace(/^#+\s+.*$/gm, '');
++  meta.description = meta.description || (0, import_theme_shared2.getTextSummary)(contentWithoutHeadings, 100) || excerpt;
+   meta.cover = meta.cover ?? getFirstImagURLFromMD(fileContent, route);
+   if (meta.publish === false) {
+     meta.hidden = true;
+diff --git a/node.mjs b/node.mjs
+index 51401e3fe1dc5ff7e56c8dc6a356e364e1992cad..19cb946864c939c324bf4baa3fc58f09f6bfe350 100644
+--- a/node.mjs
++++ b/node.mjs
+@@ -389,7 +389,8 @@ async function getArticleMeta(filepath, route, timeZone = defaultTimeZoneOffset,
+   meta.tag = [meta.tag || []].flat().concat([
+     .../* @__PURE__ */ new Set([...meta.categories || [], ...meta.tags || []])
+   ]);
+-  meta.description = meta.description || getTextSummary(content, 100) || excerpt;
++  const contentWithoutHeadings = content.replace(/^#+\s+.*$/gm, '');
++  meta.description = meta.description || getTextSummary(contentWithoutHeadings, 100) || excerpt;
+   meta.cover = meta.cover ?? getFirstImagURLFromMD(fileContent, route);
+   if (meta.publish === false) {
+     meta.hidden = true;
 diff --git a/src/components/BlogHomeTags.vue b/src/components/BlogHomeTags.vue
 index 6411323d96a9c5993e10e13a949eae271c0b76b2..80db014a24c782a3f241c1bbd01f551524f5ca40 100644
 --- a/src/components/BlogHomeTags.vue
@@ -159,3 +187,19 @@ index 217ca0bea9f273d28e7e8bb13af1411cc785b533..fc955e854bc6d1dacc249f5edae24c47
 +    limit?: number
    }
  }
+diff --git a/src/utils/node/theme.ts b/src/utils/node/theme.ts
+index c6800fa64a44dabfd82478851910a3cb3809bd53..ccf60d6d1382f63bf40f0f80ad477a7753e9b50e 100644
+--- a/src/utils/node/theme.ts
++++ b/src/utils/node/theme.ts
+@@ -66,8 +66,10 @@ export async function getArticleMeta(filepath: string, route: string, timeZone =
+ 
+   // 获取摘要信息
+   // TODO：摘要生成优化，支持AI？
++  // 先去除 Markdown 中的标题行（# 开头），避免 description 中重复出现标题文字
++  const contentWithoutHeadings = content.replace(/^#+\s+.*$/gm, '')
+   meta.description
+-    = meta.description || getTextSummary(content, 100) || excerpt
++    = meta.description || getTextSummary(contentWithoutHeadings, 100) || excerpt
+ 
+   // 获取封面图
+   // TODO: 耦合信息优化
