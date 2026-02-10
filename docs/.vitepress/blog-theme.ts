@@ -125,6 +125,12 @@ const blogTheme = getThemeConfig({
     // 推荐文章的展示卡片
     recommend: false,
 
+    // 首页标签配置
+    homeTags: {
+        // 默认展示的标签数量，超出部分折叠（点击展开可查看全部）
+        limit: 26
+    },
+
     // 评论插件
     comment: {
         repo: 'SlovinG/sloving.github.io',

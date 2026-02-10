@@ -27,6 +27,9 @@
         "@algolia/client-search",
         "search-insights"
       ]
+    },
+    "patchedDependencies": {
+      "@sugarat/theme": "patches/@sugarat__theme.patch"
     }
   }
 }
