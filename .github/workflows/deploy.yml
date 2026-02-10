@@ -56,26 +56,33 @@ jobs:
           version: 10
           run_install: false
 
+      # 获取 pnpm 缓存目录
+      - name: Get pnpm store directory
+        shell: bash
+        run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      # 设置 pnpm 缓存
+      - uses: actions/cache@v4
+        name: Setup pnpm cache
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
         # 安装依赖
       - name: Install dependencies
         run: pnpm install
 
         # 构建项目
       - name: Build blog project
-        run: |
-          echo ${{ github.workspace }}
-          pnpm build
+        run: pnpm build
 
-        # 资源拷贝
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./docs/.vitepress/dist
-          destination: ./_site
-
-        # 上传 _site 的资源，用于后续部署
+        # 上传构建产物，用于后续部署
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
 
   # 部署任务
   deploy:
