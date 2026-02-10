@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 遇到错误立即停止
+set -e
+
 # 远程 Git 仓库地址
 REMOTE_REPO_URL="git@github.com:SlovinG/sloving.github.io.git"
 
