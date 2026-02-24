@@ -83,7 +83,7 @@ export default defineConfig({
                 {text: '杀死那个一条腿的人', link: '/Life/杀死那个一条腿的人'},
                 {text: '三体和蚁族', link: '/Life/三体和蚁族'},
                 {text: '最后的六九折', link: '/Life/最后的六九折'},
-                {text: '曲终，所以人散', link: '/Life/曲终，所以人散'},
+                {text: '曲终', link: '/Life/曲终'},
                 {text: '夜航船', link: '/Life/夜航船'},
                 {text: '平凡生活，英雄梦想', link: '/Life/平凡生活，英雄梦想'},
                 {text: '毕业生必看的薪资结构解析', link: '/Life/毕业生必看的薪资结构解析'},
