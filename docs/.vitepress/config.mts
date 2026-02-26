@@ -74,6 +74,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
+                {text: '一遇风陵渡', link: '/Life/一遇风陵渡'},
                 {text: '游京', link: '/Life/游京'},
                 {text: '风雪山神庙', link: '/Life/风雪山神庙'},
                 {text: '人间烟火气', link: '/Life/人间烟火气'},
