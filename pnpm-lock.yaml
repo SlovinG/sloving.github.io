@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-patchedDependencies:
-  '@sugarat/theme':
-    hash: f2d5dd3e542245d711487a356139a965ebf8706c63edec5954f38cab4674dd45
-    path: patches/@sugarat__theme.patch
-
 importers:
 
   .:
