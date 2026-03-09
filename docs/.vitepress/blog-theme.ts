@@ -16,7 +16,7 @@ const RSS: Theme.RSSOptions = {
 // 所有配置项，详见文档: https://theme.sugarat.top/
 const blogTheme = getThemeConfig({
     // 开启RSS支持
-    // RSS,
+    RSS,
 
     // 搜索
     // 默认开启pagefind离线的全文搜索支持（如使用其它的可以设置为false）
@@ -127,8 +127,11 @@ const blogTheme = getThemeConfig({
 
     // 首页标签配置
     homeTags: {
-        // 默认展示的标签数量，超出部分折叠（点击展开可查看全部）
-        limit: 26
+        title: '🏷 标签',
+        limit: 26,
+        sort: 'desc',
+        showCount: true
+
     },
 
     // 评论插件
