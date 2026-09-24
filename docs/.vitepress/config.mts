@@ -55,6 +55,7 @@ export default defineConfig({
         // 导航栏
         nav: [
             {text: '生活随笔', link: '/Life/'},
+            {text: '个人财务', link: '/Finance/'},
             {text: '力扣每日一题', link: '/LeetCode/'},
             {text: 'Java', link: '/Java/'},
             {text: 'SpringBoot', link: '/SpringBoot/'},
@@ -74,7 +75,7 @@ export default defineConfig({
         // 侧边栏
         sidebar: {
             "/Life/": [
-                {text: '另一句话', link: '/Life/另一句话'},
+                {text: '活在没有好评的日子里', link: '/Life/活在没有好评的日子里'},
                 {text: '一遇风陵渡', link: '/Life/一遇风陵渡'},
                 {text: '游京', link: '/Life/游京'},
                 {text: '风雪山神庙', link: '/Life/风雪山神庙'},
@@ -88,7 +89,6 @@ export default defineConfig({
                 {text: '曲终', link: '/Life/曲终'},
                 {text: '夜航船', link: '/Life/夜航船'},
                 {text: '平凡生活，英雄梦想', link: '/Life/平凡生活，英雄梦想'},
-                {text: '毕业生必看的薪资结构解析', link: '/Life/毕业生必看的薪资结构解析'},
                 {text: '十年前的论坛', link: '/Life/十年前的论坛'},
                 {text: '于道各努力，千里自同风', link: '/Life/于道各努力，千里自同风'},
                 {text: '京城夜奔', link: '/Life/京城夜奔'},
@@ -130,6 +130,17 @@ export default defineConfig({
                 {text: '备胎生存法则', link: '/Life/备胎生存法则'},
                 {text: '大学生心理健康', link: '/Life/大学生心理健康'},
                 {text: '不规范翘课', link: '/Life/不规范翘课'},
+            ],
+            "/Finance/": [
+                {
+                    text: '基础认知',
+                    collapsed: false,
+                    items: [
+                        {text: '毕业生必看的薪资结构解析', link: '/Finance/毕业生必看的薪资结构解析'},
+                        {text: '资产配置', link: '/Finance/资产配置.md'},
+                        {text: '经典资产配置组合', link: '/Finance/经典资产配置组合.md'},
+                    ]
+                }
             ],
             "/LeetCode/": [
                 {
