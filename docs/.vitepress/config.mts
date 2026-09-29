@@ -133,12 +133,18 @@ export default defineConfig({
             ],
             "/Finance/": [
                 {
-                    text: '基础认知',
+                    text: '收入与保障',
                     collapsed: false,
                     items: [
                         {text: '毕业生必看的薪资结构解析', link: '/Finance/毕业生必看的薪资结构解析'},
-                        {text: '资产配置', link: '/Finance/资产配置.md'},
-                        {text: '经典资产配置组合', link: '/Finance/经典资产配置组合.md'},
+                    ]
+                },
+                {
+                    text: '投资与资产配置',
+                    collapsed: false,
+                    items: [
+                        {text: '资产配置', link: '/Finance/资产配置'},
+                        {text: '经典投资组合', link: '/Finance/经典投资组合'},
                     ]
                 }
             ],
