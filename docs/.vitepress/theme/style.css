@@ -19,3 +19,16 @@ body {
 strong {
   text-shadow: 0.8px 0;
 }
+
+/* 短表整体居中，宽表保留 VitePress 的横向滚动。 */
+.vp-doc table {
+  width: fit-content;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+/* 长说明换行时，同行内容从顶部开始对齐。 */
+.vp-doc th,
+.vp-doc td {
+  vertical-align: top;
+}
